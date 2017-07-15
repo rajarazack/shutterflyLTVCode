@@ -1,4 +1,4 @@
-import math, datetime,sys
+import math, datetime
 from dateutil.parser import parse as date_parser
 
 class LTV:
