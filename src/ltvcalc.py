@@ -126,7 +126,7 @@ if __name__ == '__main__':
     except OSError:
         print("OS Error occured while opening input file")
     except:
-        print("Unexpected error occured while opening output file")
+        print("Unexpected error occured while parsing input file")
 
     # LTV calculation
     top_LTV_Customers = ltv.topXSimpleLTVCustomers(x, data_dict)
